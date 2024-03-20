@@ -610,7 +610,6 @@ void lcdml_menu_control(void) {
     // runs only once
   }
   bool down = touch_get_xy();
-  Serial.println(current_screen);
   if (current_screen == 0) {
     Serial.println("!!!");
     btn_down.press(down && btn_down.contains(pixel_y, pixel_x));
