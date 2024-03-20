@@ -596,7 +596,7 @@ bool touch_get_xy(void) {
     // Serial.println("");
     pixel_y = map(p.y, TS_LEFT, TS_RT, 0, display.width());
     pixel_x = map(p.x, TS_TOP, TS_BOT, 0, display.height());
-    display.fillRect(pixel_y - 1, pixel_x - 1, 2, 2, 0xFFE0);
+    //display.fillRect(pixel_y - 1, pixel_x - 1, 2, 2, 0xFFE0);
     //Serial.println(p.y);
     //Serial.println(tft.width());
   }
